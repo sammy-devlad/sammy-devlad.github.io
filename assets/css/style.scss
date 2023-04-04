@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  background-image: url(../images/bg_main.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding: 20px;
+  h2 {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+.box {
+  -webkit-box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.1607843137);
+  -webkit-transition: -webkit-box-shadow 0.1s ease-in-out;
+  transition: -webkit-box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
+  border-radius: 0;
+}

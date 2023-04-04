@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  background-image: url(../images/bg_main.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding: 20px;
+}
+.title h2 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.box {
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.1607843137);
+  transition: box-shadow 0.1s ease-in-out;
+  border-radius: 0;
+}/*# sourceMappingURL=style.css.map */

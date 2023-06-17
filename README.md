@@ -1,4 +1,4 @@
-# smc-checklist.github.io <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>
+# smc-checklist.github.io 
 
 #### checklist before entering my trades
 

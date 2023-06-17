@@ -1,4 +1,4 @@
-# smc-checklist.github.io 
+# Trading plans
 
-#### checklist before entering my trades
+#### plans to improve my trading
 

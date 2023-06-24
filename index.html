@@ -24,7 +24,7 @@
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>1D Market Structure(Trend)</td>
+              <td>1H Market Structure(Trend)</td>
               <td>
                 <div class="form-check">
                   <input
@@ -36,11 +36,9 @@
                 </div>
               </td>
             </tr>
-
-            <!-- <tr>
+            <tr>
               <th scope="row">2</th>
-              <td>1 Hour Order block</td>
-
+              <td>1H Bos or Mss</td>
               <td>
                 <div class="form-check">
                   <input
@@ -52,13 +50,23 @@
                 </div>
               </td>
             </tr>
-
-
-
             <tr>
               <th scope="row">3</th>
-              <td>Imbalance</td>
-
+              <td>OB That caused Bos or Mss (In premium or discount)</td>
+              <td>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                  />
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3.5</th>
+              <td>IMBalance</td>
               <td>
                 <div class="form-check">
                   <input
@@ -72,8 +80,7 @@
             </tr>
             <tr>
               <th scope="row">4</th>
-              <td>Liquidity</td>
-
+              <td>Wait for price to comeback to the OB</td>
               <td>
                 <div class="form-check">
                   <input
@@ -85,11 +92,9 @@
                 </div>
               </td>
             </tr>
-
             <tr>
-              <th scope="row">6</th>
-              <td>5min MSS</td>
-
+              <th scope="row">5</th>
+              <td>A 3min MSS</td>
               <td>
                 <div class="form-check">
                   <input
@@ -100,306 +105,23 @@
                   />
                 </div>
               </td>
-            </tr> -->
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>A 3min flip or OB</td>
+              <td>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                  />
+                </div>
+              </td>
+            </tr>
           </tbody>
         </table>
-        <ul id="tabsJustified" class="nav nav-tabs nav-fill">
-          <li class="nav-item">
-            <a
-              href=""
-              data-target="#protrend"
-              data-toggle="tab"
-              class="nav-link small text-uppercase"
-              >Pro trends</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href=""
-              data-target="#countertrends"
-              data-toggle="tab"
-              class="nav-link small text-uppercase"
-              >Counter Trends</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href=""
-              data-target="#intraday"
-              data-toggle="tab"
-              class="nav-link small text-uppercase"
-              >5min scalping</a
-            >
-          </li>
-        </ul>
-        <div id="tabsJustifiedContent" class="tab-content">
-          <div id="protrend" class="tab-pane fade">
-            <table class="table">
-              <thead></thead>
-              <tbody>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Premium or Discount</td>
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">3</th>
-                  <td>1 Hour Order block</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Imbalance</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">4</th>
-                  <td>Liquidity</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">6</th>
-                  <td>5min MSS</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div id="countertrends" class="tab-pane fade">
-            <table class="table">
-              <thead></thead>
-              <tbody>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>A Daily POI[Order Block or Liquidity Sweep]</td>
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">3</th>
-                  <td>1 Hour MSS</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">4</th>
-                  <td>A Premium or Discount 1H OB that caused the Mss</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>Liquidity</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">6</th>
-                  <td>5min MSS on the 1H OB</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">6</th>
-                  <td>5min OB that caused MSS</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div id="intraday" class="tab-pane fade">
-            <table class="table">
-              <thead></thead>
-              <tbody>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Price is not close to a HTF POI</td>
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">3</th>
-                  <td>5min Market Structure</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th scope="row">4</th>
-                  <td>5min BOS</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">5</th>
-                  <td>5min OB that caused Bos</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">6</th>
-                  <td>pay attention asain high and low</td>
-
-                  <td>
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="defaultCheck1"
-                      />
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
       </div>
     </div>
 

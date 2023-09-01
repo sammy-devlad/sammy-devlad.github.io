@@ -20,4 +20,16 @@ body {
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.1607843137);
   transition: box-shadow 0.1s ease-in-out;
   border-radius: 0;
+}
+
+ul {
+  list-style-type: lower-roman !important;
+  list-style: lower-roman;
+  margin: 0;
+}
+ul li {
+  align-items: center;
+}
+ul li h5 span {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

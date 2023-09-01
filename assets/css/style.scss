@@ -26,3 +26,18 @@ body {
   transition: box-shadow 0.1s ease-in-out, -webkit-box-shadow 0.1s ease-in-out;
   border-radius: 0;
 }
+
+ul {
+  list-style-type: lower-roman !important;
+  list-style: lower-roman;
+
+  margin: 0;
+  li {
+    align-items: center;
+    h5 {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}

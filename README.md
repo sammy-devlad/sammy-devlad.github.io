@@ -1,4 +1,4 @@
 # Trading plans
 
-#### plans to improve my trading
+#### My trading plans
 
